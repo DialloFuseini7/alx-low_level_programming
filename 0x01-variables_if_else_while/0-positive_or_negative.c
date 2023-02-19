@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
+
 /*
 *main - Print sign of number
 * Return: 0
@@ -8,6 +9,7 @@
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -16,7 +18,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%i is negative\n", n);
 	}
 	else 
 	{
