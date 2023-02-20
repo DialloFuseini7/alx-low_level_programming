@@ -7,6 +7,7 @@
 *main - Print sign of number
 * Return: 0
 */
+
 int main(void)
 {
 	int n;
