@@ -1,18 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
+/**
  * main - Print sign of number
  * Return: 0
  */
-
 int main(void)
 {
-	int i;
+	int c;
 
-	for(i = 0; i < 10; i++)
+	for (c = 0; i < 10; c++)
 	{
-		printf("%i", i);
+		printf("%c", c);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
