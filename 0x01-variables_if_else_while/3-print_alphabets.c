@@ -1,17 +1,17 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-/*
+/**
  * main - Print sign of number
  * Return: 0
- * */
-
+ */
 int main(void)
 {
 	int i;
+	
 	for (i = 0; i < 26; i++)
 	{
-		putchar('a' +i);
+		putchar('a' + i);
 	}
 	for (i = 0; i < 26; i++)
 	{
