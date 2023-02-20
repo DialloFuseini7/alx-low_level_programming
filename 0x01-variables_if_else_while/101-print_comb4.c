@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <type.h>
+#include <ctype.h>
 /**
 * main - Print sign of number
 * Return: 0
