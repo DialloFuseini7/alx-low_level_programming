@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
-* main - Print sign of number
+* main - Print sign of numbers
 * Return: 0
 */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (p = i + 1; p < 1; p++)
+		for (p = i + 1; p < 10; p++)
 		{
 			for (l = p + 1; l < 10; l++)
 			{
@@ -27,5 +27,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-       	return (0);
+	return (0);
 }
