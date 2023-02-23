@@ -21,11 +21,11 @@ void print_to_98(int n)
 			n--;
 			printf(", ");
 		}
-		else
+else
 		{
 			s = 1;
 		}
-	}while (s != 1);
+	} while (s != 1);
 {
 	printf("\n");
 }
