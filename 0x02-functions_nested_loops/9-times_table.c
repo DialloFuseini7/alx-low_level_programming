@@ -12,24 +12,24 @@ void times_table(void)
 			p = i * m;
 			if (p >= 10)
 			{
-				putchar((p / 10) + '0');
+				_putchar((p / 10) + '0');
 			}
-			putchar((p % 10) + '0');
+			_putchar((p % 10) + '0');
 			if (m < 9)
 			{
 				if (i * (m + 1) >= 10)
 				{
-					putchar(',');
-					putchar(' ');
+					_putchar(',');
+					_putchar(' ');
 				}
 				else
 				{
-					putchar('.');
-					putchar(' ');
-					putchar(' ');
+					_putchar('.');
+					_putchar(' ');
+					_putchar(' ');
 				}
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
