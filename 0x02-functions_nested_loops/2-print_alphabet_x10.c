@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * print_alphabet -prints alphabets 10 times
- * Return: always 0
  */
 void print_alphabet(void)	
 {
@@ -17,7 +16,6 @@ void print_alphabet(void)
 			putchar(a);
 		}
 		i = i + 1;
-		putchar('\n')
+		putchar('\n');
 	}
-	return (0);
 }
