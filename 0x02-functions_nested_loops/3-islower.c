@@ -2,7 +2,7 @@
 /**
 *_islower - Returns 1 if c is lowercase and 0 if c is uppercase
 *Return: boolean determine
-*@k: character to test
+*@c: character to test
 */
 
 int _islower(int c)
@@ -15,4 +15,3 @@ int _islower(int c)
          }
          return (r);
          }
-         
