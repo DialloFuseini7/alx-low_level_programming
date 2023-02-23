@@ -3,7 +3,7 @@
  * main - prints putchar
  * Return: is always (0)
  */
-int main()
+int main(void)
 {
     int a;
     
