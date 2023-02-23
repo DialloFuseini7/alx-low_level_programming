@@ -1,17 +1,17 @@
 #include <stdio.h>
-#iinclude <main.h>
+#include "main.h"
 /**
- * main - prints putchar
- * Return: is always (0)
+ * main - prints alphabets
+ * Return: always 0
  */
 int main(void)
 {
-    int a;
-    
-    for (a = 'a'; a <= 'z'; a++)
-    {
-        putchar(a);
-    }
-    putchar('\n');
-    return (0);
+	int a;
+
+	for (a = 'a'; a <= 'z'; a++)
+	{
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
 }
