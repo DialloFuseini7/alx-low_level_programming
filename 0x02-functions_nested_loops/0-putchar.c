@@ -3,8 +3,8 @@
 #include <string.h>
 /**
  * main - prints putchar
- * 's' - char character
- * print_putchar is our prototype
+ * char s: char character
+ * print_putchar - is our prototype
  * Return: is always (0)
  */
 void print_putchar(char *s);
@@ -17,10 +17,10 @@ char s[] = "_putchar";
 void print_putchar(char *s)
 {
             int i = 0;
-            
-            while (s[i] != '\0')
+                        
+             while (s[i] != '\0')
             {
-                putchar(s[i]);
+            putchar(s[i]);          
             i++;
             }
     putchar('\n');
