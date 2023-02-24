@@ -4,7 +4,7 @@
  *prints_alphabets - prints alphabets a -z
  * Return: always 0
  */
-int print_alphabet(void)
+int print_alphabets(void)
 {
 	int a;
 
