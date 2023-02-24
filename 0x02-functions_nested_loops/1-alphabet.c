@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints alphabets
+ *print_alphabet - prints alphabets a - z
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	int a;
 
@@ -13,5 +13,4 @@ int main(void)
 		putchar(a);
 	}
 	putchar('\n');
-	return (0);
 }
