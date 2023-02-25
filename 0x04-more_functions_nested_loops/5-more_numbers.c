@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * more_numbers - prints numbers from 0 to 14
  */
@@ -11,7 +12,7 @@ void more_numbers(void)
 		{
 			for (a = 0; a < 15; a++)
 			{
-				b = i;
+				b = a;
 
 				if ( a > 9)
 				{
