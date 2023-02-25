@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * main - Print a fuzz buzz function
+ * main - Print a fizz buzz function
  * Return: 0
  */
 
