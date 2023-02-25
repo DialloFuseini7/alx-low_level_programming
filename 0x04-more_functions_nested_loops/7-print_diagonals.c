@@ -3,7 +3,6 @@
  * print_diagonal - print a diagonal with a number of characters
  * @n: number of character to use
  */
-
 void print_diagonal(int n)
 {
 	int i, d;
