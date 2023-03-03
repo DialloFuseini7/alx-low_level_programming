@@ -5,6 +5,7 @@
  * @dest: string to add to
  * @src: string to add
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int n, m;
