@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * _strncpy - this function appends the src string to the dest string
+ * Return: a pointer to the resulting string dest
+ * @dest: string to add
+ * @src : string to add
+ * @n: number of characters to copy
+ */
+char *_strncpy(char *dest. char *src, int n)
+{
+	int m;
+
+	m = 0;
+	while(*(src + m) != '\0' && m < n)
+	{
+		*(dest + m) = *(src + m);
+		m++;
+	}
+	for ( ; m < n; m++)
+	{
+		*(dest + m) = '\0';
+	}
+	return (0);
+}
