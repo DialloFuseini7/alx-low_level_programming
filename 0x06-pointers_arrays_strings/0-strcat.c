@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _strcat - this function appends the src string to the dest string
  * Return: a pointer to the resulting string dest
@@ -16,10 +16,10 @@ char *_strcat(char *dest, char *src)
 			n++;
 		}
 	while (*(src + m) != '\0')
-		{
-			*(dest + n + m) = *(src + m);
-			m++;
-		}
+	{
+		(dest + n + m) = *(src + m);
+		m++;
+	}
 		*(dest + n + m) = *(src + m);
-		return (desr);
+		return (dest);
 }
