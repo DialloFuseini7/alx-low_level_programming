@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strncpy - this function appends the src string to the dest string
  * Return: a pointer to the resulting string dest
