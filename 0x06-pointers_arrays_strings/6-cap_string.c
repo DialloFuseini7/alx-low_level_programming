@@ -21,6 +21,7 @@ char *cap_string(char *str)
 			else
 			{
 				tst = 0;
+
 				for (j = 0; j < 13; j++)
 				{
 					if (sep[j] == *(str + i - 1))
@@ -28,6 +29,9 @@ char *cap_string(char *str)
 						tst = 1;
 						break;
 					}
+				}
+				if (tst == 1)
+				{
 					*(str + i) = *(str + i) - 32;
 				}
 			}
