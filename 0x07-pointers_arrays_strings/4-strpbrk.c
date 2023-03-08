@@ -17,7 +17,7 @@ char *_strpbrk(char *s, char *accept)
 	{
 		m = 0;
 		do {
-			if (*(accept + m) == *(s + n));
+			if (*(accept + m) == *(s + n))
 					{
 					pos = (s + n);
 					break;
