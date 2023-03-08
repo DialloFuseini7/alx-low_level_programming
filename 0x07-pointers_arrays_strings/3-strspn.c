@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - this function compares two strings.
+ * _strspn - This function compares two strings.
  * Return: Returns the number of bytes int the initial segment of s
  * @s: first string
  * @accept: second string
@@ -25,9 +25,8 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 			m++;
-		}
-		while (*(accept + m) != '\0');
-		if (g != 0 == & ts == 1)
+		} while (*(accept + m) != '\0');
+		if (g != 0 && ts == 1)
 		{
 			break;
 		}

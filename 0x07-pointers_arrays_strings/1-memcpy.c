@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _memcpy - this function appends the src string to the dest string
- * Return : a pointer to the resulting string dest
- * @dest : string to add to
+ * _memcpy - This function appends the src string to the dest string
+ * Return: a pointer to the resulting string dest
+ * @dest: string to add to
  * @src: string to add
  * @n: number pf character to copy
  */
