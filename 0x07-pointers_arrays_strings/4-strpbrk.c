@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk - this is a function that compares two strings
+ * _strpbrk - This is a function that compares two strings
  * Return: Returns the number of bytes in the initial segment os s
  * @s: first string
  * @accept: second string
@@ -23,8 +23,7 @@ char *_strpbrk(char *s, char *accept)
 					break;
 					}
 					m++;
-					}
-					while (*(accept + m) != '\0');
+					} while (*(accept + m) != '\0');
 					n++;
 					}
 					return (pos);
