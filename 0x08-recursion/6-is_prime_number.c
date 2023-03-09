@@ -20,7 +20,7 @@ int helper(int n, int i)
 }
 
 /**
- * _is_prime_number - Recursive function to calculate the root of number
+ * is_prime_number - Recursive function to calculate the root of number
  * @n: number to  calculate square root
  * Return: square root
  */
