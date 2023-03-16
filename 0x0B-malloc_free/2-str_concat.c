@@ -18,7 +18,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		size1 = 0;
 	}
-	else 
+	else
 	{
 		size1 = strlen(s1);
 	}
