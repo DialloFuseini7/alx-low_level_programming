@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
  * Return: always 0
@@ -7,14 +8,14 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc < 3)
+	if (argc != 3)
 	{
 		puts("Error");
 		return (1);
 	}
 	else
 	{
-		int x, y;
+	int x, y;
 
 		x = atoi(*(argv + 1));
 		y = atoi(*(argv + 2));
